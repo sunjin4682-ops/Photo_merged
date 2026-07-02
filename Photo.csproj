@@ -25,6 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="Core\EditorState.resx" />
+    <EmbeddedResource Remove="Core\ImageCommandBase.resx" />
+    <EmbeddedResource Remove="Main.Drag.resx" />
+
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
